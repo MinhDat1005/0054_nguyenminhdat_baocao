@@ -1,0 +1,23 @@
+{
+    "name": "nguyenminhdat/shop-thoi-trang-the-thao",
+    "descripsion": "Xay dung website bán hàng-Thầy Lợi Dạy",
+    "authors": [
+        {
+            "name": "Nguyễn Minh Đạt",
+            "email": "nguyenminhdat10a2@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
